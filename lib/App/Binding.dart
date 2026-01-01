@@ -1,9 +1,11 @@
 import 'package:get/get.dart';
 
+import '../Presentation/Navbar/Controller/Controller.dart';
+
 class InitialBinding extends Bindings {
   @override
   void dependencies() {
-    // Get.lazyPut<splash_controller>(() => splash_controller(), fenix: true);
+    Get.lazyPut<navbar_controller>(() => navbar_controller(), fenix: true);
 
 
   }

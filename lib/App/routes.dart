@@ -1,12 +1,13 @@
 import 'package:get/get.dart';
+import '../Presentation/Navbar/View/narbar.dart';
 import 'Binding.dart';
 
 class routes {
-  static const String splash_screen = '/splash';
+  static const String navbar_screen = '/navbar';
 
 
   static final pages = [
-    // GetPage( name: splash_screen, binding: InitialBinding(), page: () =>  splash()),
+    GetPage( name: navbar_screen, binding: InitialBinding(), page: () =>  navbar()),
 
 
   ];
